@@ -1,0 +1,22 @@
+{
+  "name": "qa-projeto",
+  "version": "1.0.0",
+  "description": "Projeto de automacao de testes web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Geovana Tiengo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/faker": "^6.6.9",
+    "@wdio/selenium-standalone-service": "^8.5.6",
+    "codeceptjs": "^3.4.1",
+    "faker": "^5.5.3",
+    "playwright": "^1.31.1"
+  },
+  "dependencies": {
+    "gerador-validador-cpf": "^5.0.2",
+    "mochawesome": "^7.1.3"
+  }
+}
